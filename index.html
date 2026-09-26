@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mariage de Tidiane &amp; Hawa</title>
+  <meta name="description" content="Vous êtes invités au mariage religieux de Tidiane &amp; Hawa. Cérémonie à 9h00, réception à 15h30.">
+  <meta name="theme-color" content="#1f3d2f">
+
+  <!-- Aperçu du lien (WhatsApp, Facebook, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Mariage de Tidiane &amp; Hawa">
+  <meta property="og:title" content="Mariage de Tidiane &amp; Hawa">
+  <meta property="og:description" content="Vous êtes invités à célébrer notre union. Cérémonie religieuse à 9h00, réception à 15h30.">
+  <meta property="og:url" content="https://tidianeb5.github.io/mariage-tidiane-hawa-ok/">
+  <meta property="og:image" content="https://tidianeb5.github.io/mariage-tidiane-hawa-ok/apercu.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Faire-part du mariage de Tidiane et Hawa">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3d2f'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='%23c9a45c'%3ET%26amp;H%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ivory: #fbf7ee;
+      --ivory-deep: #f3ecdc;
+      --green: #1f3d2f;
+      --green-soft: #2e5443;
+      --gold: #b8913f;
+      --gold-light: #d9bf82;
+      --ink: #2b2a26;
+      --muted: #6b665b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at top, rgba(217, 191, 130, 0.18), transparent 60%),
+        var(--green);
+      color: var(--ink);
+      font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      line-height: 1.55;
+      padding: 24px 16px 40px;
+      padding-top: max(24px, env(safe-area-inset-top));
+    }
+
+    .card {
+      position: relative;
+      max-width: 560px;
+      margin: 0 auto;
+      background: var(--ivory);
+      border-radius: 6px;
+      padding: 52px 28px 48px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Double filet doré */
+    .card::before,
+    .card::after {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      border: 1px solid var(--gold);
+    }
+    .card::before { inset: 10px; }
+    .card::after { inset: 15px; border-color: var(--gold-light); }
+
+    .fade { opacity: 0; transform: translateY(12px); animation: rise 0.9s ease forwards; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.3s; } .d3 { animation-delay: 0.5s; }
+    .d4 { animation-delay: 0.7s; } .d5 { animation-delay: 0.9s; } .d6 { animation-delay: 1.1s; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; transform: none; } }
+
+    .bismillah {
+      font-family: "Amiri", serif;
+      font-size: 26px;
+      color: var(--green);
+      line-height: 1.6;
+    }
+    .bismillah-fr {
+      font-style: italic;
+      font-size: 16px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .ornament {
+      display: block;
+      width: 150px;
+      height: 22px;
+      margin: 26px auto;
+      color: var(--gold);
+    }
+
+    .eyebrow {
+      font-size: 14px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--green-soft);
+      font-weight: 600;
+    }
+
+    .names {
+      font-family: "Pinyon Script", cursive;
+      font-weight: 400;
+      color: var(--green);
+      font-size: clamp(52px, 15vw, 76px);
+      line-height: 1.15;
+      margin: 14px 0 6px;
+    }
+    .names .amp {
+      display: block;
+      font-size: 0.55em;
+      color: var(--gold);
+      line-height: 1;
+      margin: 2px 0;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    .welcome {
+      font-size: 20px;
+      color: var(--ink);
+      max-width: 30em;
+      margin: 0 auto;
+    }
+
+    .verse {
+      margin: 26px auto 0;
+      max-width: 28em;
+      font-style: italic;
+      font-size: 17px;
+      color: var(--muted);
+    }
+    .verse cite {
+      display: block;
+      margin-top: 6px;
+      font-style: normal;
+      font-size: 13px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .events {
+      display: grid;
+      gap: 18px;
+      margin-top: 8px;
+    }
+
+    .event {
+      background: var(--ivory-deep);
+      border: 1px solid rgba(184, 145, 63, 0.45);
+      border-radius: 4px;
+      padding: 26px 18px 24px;
+    }
+
+    .event h2 {
+      font-weight: 500;
+      font-size: 25px;
+      color: var(--green);
+      line-height: 1.2;
+    }
+
+    .time {
+      display: block;
+      font-size: 42px;
+      font-weight: 500;
+      color: var(--gold);
+      line-height: 1.1;
+      margin: 10px 0 4px;
+      font-variant-numeric: lining-nums;
+    }
+
+    .event p {
+      font-size: 17px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 12px 26px;
+      border-radius: 999px;
+      background: var(--green);
+      color: var(--ivory);
+      text-decoration: none;
+      font-family: inherit;
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      border: 1px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(31, 61, 47, 0.25);
+      transition: background 0.2s ease, transform 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn:hover { background: var(--green-soft); }
+    .btn:active { transform: scale(0.97); }
+    .btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .btn svg { width: 18px; height: 18px; flex: none; color: var(--gold-light); }
+
+    .closing {
+      font-size: 20px;
+      max-width: 28em;
+      margin: 0 auto;
+    }
+
+    .signature {
+      font-family: "Pinyon Script", cursive;
+      font-size: 38px;
+      color: var(--green);
+      margin-top: 18px;
+      line-height: 1.2;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 22px;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      opacity: 0.8;
+    }
+
+    @media (min-width: 600px) {
+      body { padding-top: 48px; }
+      .card { padding: 64px 48px 56px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+
+    <div class="fade d1">
+      <p class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+      <p class="bismillah-fr">Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux</p>
+    </div>
+
+    <svg class="ornament fade d1" viewBox="0 0 150 22" aria-hidden="true">
+      <path d="M2 11 H58 M92 11 H148" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M75 3 L83 11 L75 19 L67 11 Z" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="75" cy="11" r="2.2" fill="currentColor"/>
+      <circle cx="62" cy="11" r="1.5" fill="currentColor"/>
+      <circle cx="88" cy="11" r="1.5" fill="currentColor"/>
+    </svg>
+
+    <header class="fade d2">
+      <p class="eyebrow">Mariage religieux</p>
+      <h1 class="names">Tidiane<span class="amp">&amp;</span>Hawa</h1>
+      <p class="subtitle">Nikah — Union devant Allah</p>
+    </header>
+
+    <svg class="ornament fade d2" viewBox="0 0 150 22" aria-hidden="true">
+      <path d="M2 11 H58 M92 11 H148" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M75 3 L83 11 L75 19 L67 11 Z" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="75" cy="11" r="2.2" fill="currentColor"/>
+    </svg>
+
+    <section class="fade d3">
+      <p class="welcome">
+        C’est avec une immense joie, et par la grâce d’Allah, que nous vous
+        invitons à partager le jour où nos deux cœurs s’uniront.
+        Votre présence et vos prières seront notre plus beau cadeau.
+      </p>
+      <blockquote class="verse">
+        « Et parmi Ses signes, Il a créé de vous, pour vous, des épouses pour que
+        vous viviez en tranquillité avec elles, et Il a mis entre vous de
+        l’affection et de la bonté. »
+        <cite>Sourate Ar-Rûm, 30 : 21</cite>
+      </blockquote>
+    </section>
+
+    <svg class="ornament fade d4" viewBox="0 0 150 22" aria-hidden="true">
+      <path d="M2 11 H58 M92 11 H148" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M75 3 L83 11 L75 19 L67 11 Z" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="75" cy="11" r="2.2" fill="currentColor"/>
+    </svg>
+
+    <section class="events fade d4" aria-label="Programme de la journée">
+      <article class="event">
+        <h2>Cérémonie religieuse</h2>
+        <span class="time">9h00</span>
+        <p>Célébration du mariage selon la tradition musulmane</p>
+        <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=9.6142717,-13.6131103" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Voir l’itinéraire
+        </a>
+      </article>
+
+      <article class="event">
+        <h2>Réception</h2>
+        <span class="time">15h30</span>
+        <p>Pour partager ensemble un moment de fête et de convivialité</p>
+        <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=9.6170480,-13.6137350" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Voir l’itinéraire
+        </a>
+      </article>
+    </section>
+
+    <svg class="ornament fade d5" viewBox="0 0 150 22" aria-hidden="true">
+      <path d="M2 11 H58 M92 11 H148" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M75 3 L83 11 L75 19 L67 11 Z" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="75" cy="11" r="2.2" fill="currentColor"/>
+      <circle cx="62" cy="11" r="1.5" fill="currentColor"/>
+      <circle cx="88" cy="11" r="1.5" fill="currentColor"/>
+    </svg>
+
+    <section class="fade d6">
+      <p class="closing">
+        Que ce jour soit béni et rempli de joie. Nous serons profondément
+        honorés de vous compter parmi nous, et nous remercions Allah de
+        nous entourer de personnes aussi chères.
+      </p>
+      <p class="signature">Tidiane &amp; Hawa</p>
+    </section>
+
+  </main>
+
+  <footer>Barakallahu lakuma</footer>
+</body>
+</html>
