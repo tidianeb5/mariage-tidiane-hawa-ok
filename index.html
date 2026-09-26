@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Mariage de Tidiane &amp; Hawa</title>
-  <meta name="description" content="Vous êtes invités au mariage religieux de Tidiane &amp; Hawa. Cérémonie à 9h00, réception à 15h30.">
+  <meta name="description" content="Mariage religieux d’Amadou Tidiane Bah &amp; Mamadou Hawa Diallo, le dimanche 27 septembre 2026. Cérémonie à 9h00, réception à 16h00.">
   <meta name="theme-color" content="#1f3d2f">
 
   <!-- Aperçu du lien (WhatsApp, Facebook, etc.) -->
@@ -12,9 +12,9 @@
   <meta property="og:locale" content="fr_FR">
   <meta property="og:site_name" content="Mariage de Tidiane &amp; Hawa">
   <meta property="og:title" content="Mariage de Tidiane &amp; Hawa">
-  <meta property="og:description" content="Vous êtes invités à célébrer notre union. Cérémonie religieuse à 9h00, réception à 15h30.">
+  <meta property="og:description" content="Dimanche 27 septembre 2026 · Cérémonie religieuse à 9h00 · Réception à 16h00. Vous êtes invités à célébrer notre union.">
   <meta property="og:url" content="https://tidianeb5.github.io/mariage-tidiane-hawa-ok/">
-  <meta property="og:image" content="https://tidianeb5.github.io/mariage-tidiane-hawa-ok/apercu.jpg">
+  <meta property="og:image" content="https://tidianeb5.github.io/mariage-tidiane-hawa-ok/apercu-2.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -117,8 +117,8 @@
       font-family: "Pinyon Script", cursive;
       font-weight: 400;
       color: var(--green);
-      font-size: clamp(52px, 15vw, 76px);
-      line-height: 1.15;
+      font-size: clamp(42px, 12vw, 64px);
+      line-height: 1.12;
       margin: 14px 0 6px;
     }
     .names .amp {
@@ -135,6 +135,68 @@
       text-transform: uppercase;
       color: var(--gold);
       font-weight: 600;
+    }
+
+    .date {
+      margin-top: 26px;
+      padding: 14px 0;
+      border-top: 1px solid var(--gold-light);
+      border-bottom: 1px solid var(--gold-light);
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .date-day {
+      display: block;
+      font-size: 14px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--green-soft);
+      font-weight: 600;
+    }
+    .date-num {
+      display: block;
+      font-size: 30px;
+      color: var(--gold);
+      font-weight: 500;
+      font-variant-numeric: lining-nums;
+      line-height: 1.3;
+    }
+
+    .place {
+      font-size: 18px;
+      color: var(--green);
+      font-weight: 600;
+      line-height: 1.35;
+      margin: 12px 0 18px;
+    }
+    .place small {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .sponsors {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .sponsors dt {
+      font-size: 13px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .sponsors dd {
+      font-size: 21px;
+      color: var(--green);
+      font-weight: 600;
+      line-height: 1.3;
+      margin-top: 4px;
     }
 
     .welcome {
@@ -194,7 +256,6 @@
     .event p {
       font-size: 17px;
       color: var(--muted);
-      margin-bottom: 18px;
     }
 
     .btn {
@@ -292,8 +353,12 @@
 
     <header class="fade d2">
       <p class="eyebrow">Mariage religieux</p>
-      <h1 class="names">Tidiane<span class="amp">&amp;</span>Hawa</h1>
+      <h1 class="names">Amadou<br>Tidiane Bah<span class="amp">&amp;</span>Mamadou<br>Hawa Diallo</h1>
       <p class="subtitle">Nikah — Union devant Allah</p>
+      <div class="date">
+        <span class="date-day">Dimanche</span>
+        <span class="date-num">27 septembre 2026</span>
+      </div>
     </header>
 
     <svg class="ornament fade d2" viewBox="0 0 150 22" aria-hidden="true">
@@ -327,6 +392,7 @@
         <h2>Cérémonie religieuse</h2>
         <span class="time">9h00</span>
         <p>Célébration du mariage selon la tradition musulmane</p>
+        <p class="place">Petit Simbaya, Providence 2<br>Terrain Sarabara<small>Chez la mariée</small></p>
         <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=9.6142717,-13.6131103" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
           Voir l’itinéraire
@@ -335,8 +401,9 @@
 
       <article class="event">
         <h2>Réception</h2>
-        <span class="time">15h30</span>
+        <span class="time">16h00</span>
         <p>Pour partager ensemble un moment de fête et de convivialité</p>
+        <p class="place">Providence 2<br>Groupe scolaire Le Grenier</p>
         <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=9.6170480,-13.6137350" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
           Voir l’itinéraire
@@ -350,6 +417,17 @@
       <circle cx="75" cy="11" r="2.2" fill="currentColor"/>
       <circle cx="62" cy="11" r="1.5" fill="currentColor"/>
       <circle cx="88" cy="11" r="1.5" fill="currentColor"/>
+    </svg>
+
+    <dl class="sponsors fade d5">
+      <div><dt>Marraine</dt><dd>Aminata Tounkara</dd></div>
+      <div><dt>Parrain</dt><dd>Ibrahima Diallo</dd></div>
+    </dl>
+
+    <svg class="ornament fade d5" viewBox="0 0 150 22" aria-hidden="true">
+      <path d="M2 11 H58 M92 11 H148" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M75 3 L83 11 L75 19 L67 11 Z" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="75" cy="11" r="2.2" fill="currentColor"/>
     </svg>
 
     <section class="contact fade d5" aria-label="Contacts">
